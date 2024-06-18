@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레시피 검색 앱</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>당신을 위한 집밥 레시피</h1>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="음식 이름 검색하기" />
+            <button id="searchBtn">검색</button>
+        </div>
+    </header>
+    <main>
+        <section class="recipe-list">
+            <h2>오늘의 NEW RECIPE</h2>
+            <div id="recipeContainer" class="recipes">
+                <!-- JavaScript에 의해 동적으로 채워짐 -->
+            </div>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
